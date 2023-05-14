@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  подключаем стили -->
+    <link href="./styles/_index.css" rel="stylesheet" type="text/css">
+    <link href="./styles/footer.css" rel="stylesheet" type="text/css">
+    <link href="./styles/header.css" rel="stylesheet" type="text/css">
+    <link href="./styles/main.css" rel="stylesheet" type="text/css">
+    <link href="./styles/input.css" rel="stylesheet" type="text/css">
+    <link href="./styles/main-aside.css" rel="stylesheet" type="text/css">
+    <link href="./styles/button.css" rel="stylesheet" type="text/css">
+    <link href="./styles/checkbox.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Aero</title>
+</head>
+
+<body>
+    <!--  шапка -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header__site-map">
+                <div class="header__home">
+                    <img src="./assets/icons/Home_10.svg" alt="Home" />
+                    <a class="header__home-link" href="#"></a>
+                </div>
+                <div>
+                    Карта сайта
+                </div>
+            </div>
+
+            <nav>
+                <ul class="header__nav header__nav--main">
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-primary nav-link">
+                            Авиабилеты
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-primary nav-link">
+                            Ж/Д билеты
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-primary nav-link">
+                            Поиск тура
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="header__nav header__nav--main">
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-secondary nav-link">
+                            О компании
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-secondary nav-link">
+                            Услуги
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-secondary nav-link">
+                            Пресс-центр
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-secondary nav-link">
+                            Офисы продаж
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="nav-link-secondary nav-link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--  контент -->
+    <div class="main">
+        <div class="container main-container">
+            <div class="info">
+                <img src="./assets/images/logo.png" alt="Logo" />
+                <p class="info__text">
+                    Авиаэкспресс - крупнейшая в Забайкайле сеть универсальных касс по продаже авиационных
+                    железнодорожных билетов и туристических услуг.
+                </p>
+                <div class="info__phone-number-box">
+                    <label for="info-phone" class="info__phone-number-label">
+                        Телефон справочной службы:
+                    </label>
+                    <span id="info-phone" class="info__phone-number">
+                        +7 (3022) 45-05-05
+                    </span>
+                </div>
+            </div>
+            <main class="main__content">
+                <ul class="breadcrumb">
+                    <li><a href="#">Главная</a><img src="./assets/icons/Right_Arrow_RED.svg" alt="Next" /></li>
+
+                    <li><a href="#">Услуги</a><img src="./assets/icons/Right_Arrow_RED.svg" alt="Next" /></li>
+
+                    <li>Заказ и бронирование авиабилетов</li>
+                </ul>
+                <div class="slider">
+                    <div class="subheader">
+                        <h2>
+                            Бронирование авиабилетов
+                        </h2>
+                        <a href="#" target="_blank">
+                            Посмотреть инструкцию по бронированию
+                        </a>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate officia, tempora ipsum
+                        accusantium est dolorum aliquid neque repellendus obcaecati consequuntur perferendis commodi,
+                        earum deleniti illum eveniet iusto aspernatur nemo corporis quasi? Natus, quis ex. Incidunt
+                        saepe velit minus! Voluptatibus voluptatem iusto vero temporibus obcaecati reprehenderit unde.
+                        Quam quasi, architecto sed debitis aut optio incidunt autem soluta similique velit veritatis
+                        molestias, molestiae laudantium vero expedita ipsum magni cumque eveniet ipsa assumenda alias.
+                        Dolores architecto quis atque animi cumque
+                    </p>
+                    <div class="slider-box">
+                        <img class="slider-img slider-img--active"
+                            src="assets/images/GettyImages-1131335393-e1650030686687.jpg" />
+                        <img class="slider-img" />
+                        <img class="slider-img" />
+                        <div class="slider-points">
+                            <span class="point--active point"></span>
+                            <span class="point"></span>
+                            <span class="point"></span>
+                        </div>
+                        <button class="slider-prev-btn slider-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 7L10 12L15 17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="slider-next-btn slider-btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 7L15 12L10 17" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="steps">
+                        <li class="step-box">
+                            <div class="step">
+                                Выбор рейса
+                            </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.715 6.36694L16.4 10.6639C16.7719 10.9289 16.9927 11.3573 16.9927 11.8139C16.9927 12.2706 16.7719 12.699 16.4 12.9639L10.71 17.6639C10.2297 18.0453 9.57937 18.1339 9.01454 17.8948C8.44972 17.6558 8.06059 17.1273 8 16.5169V7.51694C8.05842 6.90422 8.44799 6.37281 9.01475 6.13275C9.58151 5.89269 10.2342 5.9826 10.715 6.36694Z"
+                                    stroke="rgb(189,49,83)" fill="rgb(189,49,83)" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="step-box">
+                            <div class="step step--active" style="font-weight: 500;">
+                                Информация о пассажирах
+                            </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.715 6.36694L16.4 10.6639C16.7719 10.9289 16.9927 11.3573 16.9927 11.8139C16.9927 12.2706 16.7719 12.699 16.4 12.9639L10.71 17.6639C10.2297 18.0453 9.57937 18.1339 9.01454 17.8948C8.44972 17.6558 8.06059 17.1273 8 16.5169V7.51694C8.05842 6.90422 8.44799 6.37281 9.01475 6.13275C9.58151 5.89269 10.2342 5.9826 10.715 6.36694Z"
+                                    stroke="rgb(189,49,83)" fill="rgb(189,49,83)" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="step-box">
+                            <div class="step">
+                                Оформление
+                            </div>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.715 6.36694L16.4 10.6639C16.7719 10.9289 16.9927 11.3573 16.9927 11.8139C16.9927 12.2706 16.7719 12.699 16.4 12.9639L10.71 17.6639C10.2297 18.0453 9.57937 18.1339 9.01454 17.8948C8.44972 17.6558 8.06059 17.1273 8 16.5169V7.51694C8.05842 6.90422 8.44799 6.37281 9.01475 6.13275C9.58151 5.89269 10.2342 5.9826 10.715 6.36694Z"
+                                    stroke="rgb(189,49,83)" fill="rgb(189,49,83)" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li class="step-box">
+                            <div class="step">
+                                Результаты бронирования
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form" style="background-color: #FFD350; padding: 1.5rem;  margin-top: 0.75rem; border-radius: 0.5rem; box-shadow: 0.125rem 0.125rem 0.25rem rgba(0,0,0,0.25);">
+                        <fieldset>
+                            <div class="form-departure" style="display: flex; gap: 2rem;">
+                                <div class="form-date-departure">
+                                    <h5>
+                                        Город вылета
+                                    </h5>
+                                    <input id="departure-from-city" class="departure-city" placeholder="Чита"  />
+                                    <input type="date" />
+                                </div>
+                                
+                                <div class="form-date-departure">
+                                    <h5>
+                                        Город назначения
+                                    </h5>
+                                    <input id="departure-to-city" class="departure-city" placeholder="Москва" default-value="Москва"  />
+                                    <input type="date" />
+                                </div>
+                            </div>
+                           
+                            
+                            <div class="checkbox" style="margin-top: 0.75rem;">
+                                <input id="one-way" type="checkbox" />
+                                <label for="one-way">В одну сторону</label>
+                            </div>
+
+                            <div class="form-passenger-information" style="display: flex; justify-content: space-between; width: 100%; margin-top: 0.75rem;">
+                                <div style="flex: 0 0 65%;">
+                                    <h5>Информация о пассажирах</h5>
+                                    <div style="display: flex; gap: 0.25rem;">
+                                        <select>
+                                            <option value="" disabled selected>Взрозлые</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                        <select>
+                                            <option value="" disabled selected>Дети</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                        <select>
+                                            <option value="" disabled selected>Младенцы</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                    
+
+                                </div>
+                                <div style="width: 30%; ">
+                                    <h5>Класс</h5>
+                                    <select>
+                                        <option>Эконом</option>
+                                        <option>Эконом+</option>
+                                        <option>Бизнес</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div style="display: flex; gap: 0.75rem; margin-top: 0.75rem;">
+                                <h5>Оплата с: </h5>
+                                <div class="checkbox" style="font-style: italic; font-size: 0.875rem; display: flex; align-items: center;">
+                                    <input id="plastic-card-payment" value="plastic" type="radio" name="payment" />
+                                    <label for="plastic-card-payment">Пластиковая карта</label>
+                                </div>
+                                <div class="checkbox" style="font-style: italic; font-size: 0.875rem;  display: flex; align-items: center;">
+                                    <input id="cash-payment" value="cash"  type="radio" name="payment" />
+                                    <label for="cash-payment">Наличные</label>
+                                </div>
+                                <div class="checkbox" style="font-style: italic; font-size: 0.875rem;  display: flex; align-items: center;">
+                                    <input id="cashless-payment" value="cashless" type="radio" name="payment" />
+                                    <label for="cashless-payment">Безналичный расчет</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                            
+                        
+                        <button class="btn-primary" style="margin-top: 0.75rem;" type="submit">Расписание</button>
+                    </form>
+                    <div class="awesome-image" style="position: relative; margin-top: 2rem; margin-bottom: 2.25rem;">
+                        <img src="assets/images/JGdM8-Rrw-w.jpg" alt="Aeroplain" style="max-height: 20rem; overflow: hidden; object-fit: cover; width: 100%;" />
+                        <div style="position: absolute; right: 3rem; bottom: 2rem; font-size: 1.5rem; color: #FD1B51;">
+                            Билеты от <span style="background-color: #FD1B51; color: white; padding: 0.25rem 0.5rem; margin-left: 0.25rem; border-radius: 0.5rem; font-size: 2rem; box-shadow: 0.125rem 0.125rem 0.125rem rgba(0,0,0,0.25);text-shadow: rgba(0,0,0,0.25);">6450 ₽</span>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <h2>Чита - Москва (20.08.2013)</h2>
+                        <table>
+                            <caption>Прямые рейсы</caption>
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>Рейс</td>
+                                    <td>Вылет</td>
+                                    <td>Прилет</td>
+                                    <td>В пути</td>
+                                    <td>Самолет</td>
+                                    <td>Класс</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="radio" name="table-radio" /></td>
+                                    <td>S7-120 *</td>
+                                    <td>08:50 Чита</td>
+                                    <td>11:50 Домодедово</td>
+                                    <td>9:00</td>
+                                    <td>БОИНГ 737-800</td>
+                                    <td>Э / 4</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input  type="radio" name="table-radio" />
+
+                                    </td>
+                                    <td>S7-120 *</td>
+                                    <td>08:50 Чита</td>
+                                    <td>11:50 Домодедово</td>
+                                    <td>9:00</td>
+                                    <td>БОИНГ 737-800</td>
+                                    <td>Э / 4</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
+
+
+            </main>
+            <aside class="main__aside">
+                <nav style="display: flex; flex-direction: column; margin-bottom: 3rem;">
+                    <a href="#" class="big-nav-link big-nav-link--active">
+                        Заказ билетов
+                    </a>
+                    <a href="#" class="big-nav-link">
+                        Расписание рейсов
+                    </a>    
+                </nav>
+                <div
+                    style="padding: 1rem 2.25rem; display: flex; flex-direction: column; gap: 0.5rem; border-bottom: 2px solid lightgray;">
+                    <h2>Узнать где купить</h2>
+                    <p>У нас 16 офисов продаж, где вы можете купить билеты и получить консультации наших специалистов.
+                    </p>
+                    <a style="color: #02AFE2; text-decoration: underline;" href="#">Пункты продаж билетов</a>
+                </div>
+                <form class="zayavka" onsubmit="alert('Успешно')">
+                    <fieldset>
+                        <legend class="zayavka__title">
+                            <h2>
+                                Оставте нам заявку
+                            </h2>
+                        </legend>
+                        <p>
+                            Оставте нам сообщение с вашими потребностями и наши консультанты сами подберут вам лучшие
+                            условия и свяжутся с вами в течение 3-6 часов.
+                        </p>
+                        <input type="text" id="first-name" name="client-name" placeholder="Как вас зовут" />
+                        <input type="tel" id="phone" name="client-name" placeholder="Контактный телефон" />
+                        <textarea name="what-interested" placeholder="Что вас интересует?"></textarea>
+                    </fieldset>
+                    <button class="btn-primary" style="margin-top: 2rem;" type="submit">Отправить</button>
+                </form>
+                <div class="services" style="padding: 1rem 2.25rem; background-color: #FAF6EB;">
+                    <h2 style="margin-bottom: 1rem;">Услуги</h2>
+                    <ul class="services__list" style="list-style: none; display: flex; flex-direction: column;">
+                        <li class="services__item">
+                            Аэроэкспресс
+                        </li>
+                        <li class="services__item services__item--active">
+                            Гостинницы
+                        </li>
+                        <li class="services__item">
+                            Такси
+                        </li>
+                        <li class="services__item">
+                            Автобусы
+                        </li>
+                        <li class="services__item">
+                            Страхование
+                        </li>
+                    </ul>
+                </div>
+                <div style="padding: 1rem 2.25rem;">
+                    <h2 style="margin-bottom: 1rem;">Полезно знать</h2>
+                    <ul class="services__list" style="list-style: none; display: flex; flex-direction: column;">
+                        <li class="services__item" style="color: gray;">
+                            Авиакомпании
+                        </li>
+                        <li class="services__item" style="color: gray;">
+                            Аэропорты
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+    </div>
+    <!--  футер -->
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn-primary {
+    padding: 0.75rem 1rem;
+    border: 0.125rem solid #9FE8F8;
+    background: rgb(0,150,227);
+    background: linear-gradient(0deg, rgba(0,150,227,1) 0%, rgba(1,186,238,1) 100%);
+    color: #fff;
+}
